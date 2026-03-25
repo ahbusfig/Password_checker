@@ -46,6 +46,8 @@ Password_checker/
 ├── requirements.txt
 └── README.md
 ```
+## Diagrama de flujo
+<img width="800" height="980" alt="flowchart_password_checker" src="https://github.com/user-attachments/assets/8983c74d-e8ac-4144-9a78-e5fdf77f5678" />
 
 ## Uso
 ```bash
