@@ -1,0 +1,6 @@
+# password_checker — dependencias
+# Solo stdlib de Python 3.9+. Sin dependencias externas.
+#
+# Para ejecutar tests:
+#   python -m pytest tests/ -v
+#   python -m unittest discover tests/
