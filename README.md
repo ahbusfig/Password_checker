@@ -31,15 +31,20 @@ Cada contraseña pasa por 10 checks independientes y recibe un score de 0 a 100:
 
 ## Estructura del proyecto
 ```
-password-checker/
-├── password_checker.py   # Entrada CLI — argparse, modos inline y batch
+Password_checker/
+├── password_checker.py        # Entrada CLI — argparse, modos inline y batch
 ├── Checkers/
-│   ├── analyzer.py       # Lógica central de análisis y scoring
-│   ├── entropy.py        # Cálculo de entropía
-│   ├── patterns.py       # Patrones débiles y carga de wordlist
-│   └── formatter.py      # Output en terminal con colores
-└── wordlists/
-    └── common_passwords.txt
+│   ├── __init__.py
+│   ├── analyzer.py            # Lógica central de análisis y scoring
+│   ├── entropy.py             # Cálculo de entropía
+│   ├── patterns.py            # Patrones débiles y carga de wordlist
+│   └── formatter.py           # Output en terminal con colores
+├── wordlists/
+│   └── common_passwords.txt   # Lista de contraseñas comunes
+├── tests/
+├── passwords_test.txt         # Contraseñas de ejemplo para pruebas
+├── requirements.txt
+└── README.md
 ```
 
 ## Uso
